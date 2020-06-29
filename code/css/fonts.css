@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "metropolisbold";
+  src: url("./../../fonts/metropolis-bold.woff2") format("woff2"),
+    url("./../../fonts/metropolis-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolismedium";
+  src: url("./../../fonts/metropolis-medium.woff2") format("woff2"),
+    url("./../../fonts/metropolis-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolisregular";
+  src: url("./../../fonts/metropolis-regular.woff2") format("woff2"),
+    url("./../../fonts/metropolis-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "piersans";
+  src: url("./../../fonts/piersans-regular.woff2") format("woff2"),
+    url("./../../fonts/piersans-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
