@@ -74,7 +74,7 @@
   }
 
   .navbar .container .nav-item .btn {
-    color: green !important;
+    color: yellow !important;
   }
 
   .navbar .container .nav-item .btn:hover {
@@ -96,7 +96,9 @@
   }
 
   main .jumbotron .container .heading {
-    width: 18.5em !important;
+    width: 122% !important;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
   }
 
   main .jumbotron .container .heading h2 {
@@ -134,7 +136,7 @@
   }
 
   .navbar .container .nav-item .btn {
-    color: yellow !important;
+    color: green !important;
   }
 
   .navbar .container .nav-item .btn:hover {
@@ -156,7 +158,9 @@
   }
 
   main .jumbotron .container .heading {
-    width: 21.5em !important;
+    width: 122% !important;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
   }
 
   main .jumbotron .container .heading h2 {
