@@ -27,7 +27,7 @@
 }
 
 /* Section 1 */
-main .jumbotron {
+main .banner {
   position: absolute;
   top: 0;
   width: 100%;
@@ -37,18 +37,18 @@ main .jumbotron {
   background-image: linear-gradient(#fff, #e2f1ff);
 }
 
-main .jumbotron .container {
+main .banner .container {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main .jumbotron .container .row {
+main .banner .container .row {
     justify-content: space-around;
 }
 
-main .jumbotron .container .info {
+main .banner .container .info {
     width: 256px;
     height: 40px;
     border-radius: 20px;
@@ -56,23 +56,23 @@ main .jumbotron .container .info {
     color: #722ed1;
 }
 
-main .jumbotron .container .info p a {
+main .banner .container .info p a {
     color: #722ed1;
     text-decoration: underline;
 }
 
-main .jumbotron .container .heading h2 {
+main .banner .container .heading h2 {
     font-family: 'metropolisbold';
     font-size: 48px;
 }
 
-main .jumbotron .container .heading h3 {
+main .banner .container .heading h3 {
     font-family: 'metropolismedium';
     font-size: 16px;
     color: #8989A2 !important;
 }
 
-main .jumbotron .container .heading .heading-button .btn:first-child{
+main .banner .container .heading .heading-button .btn:first-child{
     width: 168px;
     height: 48px;
     background-color: #722ED1;
@@ -80,7 +80,7 @@ main .jumbotron .container .heading .heading-button .btn:first-child{
     border-radius: 24px;
 }
 
-main .jumbotron .container .heading .heading-button .btn:last-child{
+main .banner .container .heading .heading-button .btn:last-child{
     width: 168px;
     height: 48px;
     background-color: #fff;
