@@ -1,5 +1,8 @@
 /* Mini Android */
 @media only screen and (min-width: 300px) and (max-width: 319px) {
+  .navbar {
+    background-color: #e2f1ff !important;
+  }
   .navbar-nav {
     margin-top: 5px;
   }
@@ -17,44 +20,47 @@
     color: #722ed1 !important;
   }
 
+  /* section1 */
   main .jumbotron {
-    position: absolute;
-    top: 0;
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 86vh;
     z-index: -1;
-    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%);
-     /* background-image: linear-gradient(#fff, #e2f1ff); */
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(#e2f1ff, #fff);
   }
 
   main .jumbotron .container .row {
     width: 100%;
-}
-
-   main .jumbotron .container .col-md-5:last-child {
-       width: 100%;
-   }
-
-  main .jumbotron .container .col-md-5:last-child img {
-    width: 100% !important;
   }
 
   main .jumbotron .container .heading {
-    width: 78% !important;
+    width: 18.5em !important;
   }
 
   main .jumbotron .container .heading h2 {
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 
   main .jumbotron .container .heading h3 {
-    font-size: 10px !important;
+    font-size: 1em !important;
   }
+
+  main .jumbotron .container .col-md-5:last-child {
+    display: none;
+  }
+
+  main .jumbotron .container .col-md-5:last-child img{
+    width: 18.8em;
+  }
+
 }
 
 /* Small Android */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
+  .navbar {
+    background-color: #e2f1ff !important;
+  }
   .navbar-nav {
     margin-top: 5px;
   }
@@ -75,10 +81,46 @@
     background-color: white;
     color: #722ed1 !important;
   }
+
+  main .jumbotron {
+    position: relative;
+    width: 100%;
+    height: 86vh;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(#e2f1ff, #fff);
+  }
+
+  main .jumbotron .container .row {
+    width: 100%;
+  }
+
+  main .jumbotron .container .heading {
+    width: 18.5em !important;
+  }
+
+  main .jumbotron .container .heading h2 {
+    font-size: 2.5rem;
+  }
+
+  main .jumbotron .container .heading h3 {
+    font-size: 1em !important;
+  }
+
+  main .jumbotron .container .col-md-5:last-child {
+    display: none;
+  }
+
+  main .jumbotron .container .col-md-5:last-child img{
+    width: 18.8em;
+  }
 }
 
 /* Standart Android */
 @media only screen and (min-width: 360px) and (max-width: 479px) {
+  .navbar {
+    background-color: #e2f1ff !important;
+  }
   .navbar-nav {
     margin-top: 5px;
   }
@@ -99,10 +141,46 @@
     background-color: white;
     color: #722ed1 !important;
   }
+
+  main .jumbotron {
+    position: relative;
+    width: 100%;
+    height: 86vh;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(#e2f1ff, #fff);
+  }
+
+  main .jumbotron .container .row {
+    width: 100%;
+  }
+
+  main .jumbotron .container .heading {
+    width: 21.5em !important;
+  }
+
+  main .jumbotron .container .heading h2 {
+    font-size: 2.5rem;
+  }
+
+  main .jumbotron .container .heading h3 {
+    font-size: 1em !important;
+  }
+
+  main .jumbotron .container .col-md-5:last-child {
+    display: none;
+  }
+
+  main .jumbotron .container .col-md-5:last-child img{
+    width: 18.8em;
+  }
 }
 
 /* Medium Android */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .navbar {
+    background-color: #e2f1ff !important;
+  }
   .navbar-nav {
     margin-top: 5px;
   }
@@ -116,12 +194,45 @@
   }
 
   .navbar .container .nav-item .btn {
-    color: blue !important;
+    color: yellow !important;
   }
 
   .navbar .container .nav-item .btn:hover {
     background-color: white;
     color: #722ed1 !important;
+  }
+
+  main .jumbotron {
+    position: relative;
+    width: 100%;
+    height: 86vh;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(#e2f1ff, #fff);
+  }
+
+  main .jumbotron .container .row {
+    width: 100%;
+  }
+
+  main .jumbotron .container .heading {
+    width: 30em !important;
+  }
+
+  main .jumbotron .container .heading h2 {
+    font-size: 2.5rem;
+  }
+
+  main .jumbotron .container .heading h3 {
+    font-size: 1em !important;
+  }
+
+  main .jumbotron .container .col-md-5:last-child {
+    display: none;
+  }
+
+  main .jumbotron .container .col-md-5:last-child img{
+    width: 18.8em;
   }
 }
 
