@@ -877,6 +877,7 @@
     transform: translate(-8px, 40px);
     height: 35.7em !important;
   }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -942,6 +943,77 @@
 
   .ceo {
     clip-path: polygon(0 7%, 100% 0, 100% 90%, 0 100%);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client--form .form-group {
+    width: 100% !important;
+    margin-bottom: 1.7em;
+  }
+
+  .btn.mt-3.client--form__btnfree {
+    width: 99% !important;
+    margin-top: 1.7em !important;
+  }
+
+  .client .client--trusted span:first-child,
+  .client .client--trusted span:last-child {
+    width: 6em;
+  }
+
+  .client--formbg {
+    width: 97% !important;
+    transform: translate(-8px, 40px);
+    height: 35.7em !important;
+  }
+
+  .client--form {
+    width: 100% !important;
+    right: 0px;
+    box-shadow: none !important;
+    border: 1px solid rgba(137, 137, 162, .5) !important;
+  }
+
+  .client--form span.client--form__footerline {
+    margin-top: 1em;
+    width: 100% !important;
+  }
+
+  .ceo__row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'satu dua tiga' 'empat lima lima';
+    align-items: center;
+    align-content: center;
+    justify-items: baseline;
+    grid-gap: 3em;
+}
+
+  .ceo__row .satu {
+    grid-area: satu !important;
+  }
+
+  .ceo__row .dua {
+    grid-area: dua !important;
+  }
+
+  .ceo__row .tiga {
+    grid-area: tiga !important;
+  }
+
+  .ceo__row .empat {
+    grid-area: empat !important;
+  }
+
+  .ceo__row .lima {
+    grid-area: lima !important;
   }
 }
 
