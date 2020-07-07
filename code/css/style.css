@@ -352,3 +352,19 @@
   margin-top: 30px;
   transform: translateY(55px);
 }
+
+.footer {
+  height: 400px;
+  background-color: #FBFCFF !important;
+}
+
+.footer .container {
+  flex-direction: column;
+  height: 100% !important;
+}
+
+.footer .footer--about p {
+  font-family: 'metropolismedium';
+  font-size: 12px;
+  color: #160637 !important;
+}
