@@ -28,8 +28,6 @@
 
 /* Section 1 */
 .banner {
-  /* position: absolute;
-  top: 0; */
   width: 100%;
   height: 100vh;
   z-index: -1;
@@ -39,15 +37,16 @@
 }
 
 .banner .container {
-  height: 100%;
+  min-height: 85%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.banner .container .row {
+/* .banner .container .row {
     justify-content: space-around;
-    margin-top: 5em;
-}
+    margin-top: 10em;
+} */
 
 .banner .container .info {
     width: 256px;
@@ -65,12 +64,15 @@
 .banner .container .heading h2 {
     font-family: 'metropolisbold';
     font-size: 48px;
+    margin-bottom: 0.6em;
+    margin-top: 1em;
 }
 
 .banner .container .heading h3 {
     font-family: 'metropolismedium';
     font-size: 16px;
     color: #8989A2 !important;
+    margin-bottom: 2em;
 }
 
 .banner .container .heading .heading-button .btn:first-child{
@@ -87,6 +89,11 @@
     background-color: #fff;
     color: #000 !important;
     border-radius: 24px;
+}
+
+.banner .gambar {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .why {
@@ -129,6 +136,14 @@
 
 .why--content .row {
   justify-content: space-around !important;
+  margin-top: 6em;
+}
+
+.why--content .row .data img,
+.why--content .row .powerful img,
+.why--content .row .value img {
+  width: 5em !important;
+  height: 5em !important;
 }
 
 .why--content .row .data h3,
