@@ -360,11 +360,55 @@
 
 .footer .container {
   flex-direction: column;
-  height: 100% !important;
+  min-height: 140% !important;
 }
 
 .footer .footer--about p {
   font-family: 'metropolismedium';
   font-size: 12px;
+  color: #160637 !important;
+}
+
+.footer .footer--about__sosmed {
+  justify-content: space-around;
+}
+
+.footer .footer--about__sosmed img{
+  width: 20% !important;
+}
+
+.footer .col-md-2 h5 {
+  font-family: 'metropolisbold';
+  font-size: 16px;
+  color: #160637;
+}
+
+.footer .col-md-2 p {
+  font-family: 'metropolismedium';
+  font-size: 0.9em;
+  color: #160637;
+}
+
+.footer .row:last-child .col h5 {
+  font-family: 'metropolisbold';
+  font-size: 2em;
+  color: #160637;
+}
+
+.footer .row:last-child .col p {
+  font-family: 'metropolisbold';
+  font-size: 20px;
+  color: #160637 !important;
+}
+
+.footer .row:last-child .col h6 {
+  font-family: 'metropolismedium';
+  font-size: 16px;
+  color: #160637 !important;
+}
+
+.footer .row:last-child .col a {
+  font-family: 'metropolisbold';
+  font-size: 19px;
   color: #160637 !important;
 }
