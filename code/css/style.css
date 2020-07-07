@@ -1,16 +1,16 @@
-@import url("./fonts.css");
-@import url("./responsive.css");
+@import url('./fonts.css');
+@import url('./responsive.css');
 
 /* Navbar */
 .navbar .container .navbar-brand span {
-  font-family: "metropolismedium";
+  font-family: 'metropolismedium';
   font-size: 30px;
   position: relative;
   z-index: 1;
 }
 
 .navbar .container .nav-link {
-  font-family: "metropolismedium";
+  font-family: 'metropolismedium';
   font-size: 19px;
 }
 
@@ -49,46 +49,46 @@
 } */
 
 .banner .container .info {
-    width: 256px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #F9F0FF;
-    color: #722ed1;
+  width: 256px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f9f0ff;
+  color: #722ed1;
 }
 
 .banner .container .info p a {
-    color: #722ed1;
-    text-decoration: underline;
+  color: #722ed1;
+  text-decoration: underline;
 }
 
 .banner .container .heading h2 {
-    font-family: 'metropolisbold';
-    font-size: 48px;
-    margin-bottom: 0.6em;
-    margin-top: 1em;
+  font-family: 'metropolisbold';
+  font-size: 48px;
+  margin-bottom: 0.6em;
+  margin-top: 1em;
 }
 
 .banner .container .heading h3 {
-    font-family: 'metropolismedium';
-    font-size: 16px;
-    color: #8989A2 !important;
-    margin-bottom: 2em;
+  font-family: 'metropolismedium';
+  font-size: 16px;
+  color: #8989a2 !important;
+  margin-bottom: 2em;
 }
 
-.banner .container .heading .heading-button .btn:first-child{
-    width: 168px;
-    height: 48px;
-    background-color: #722ED1;
-    color: #fff !important;
-    border-radius: 24px;
+.banner .container .heading .heading-button .btn:first-child {
+  width: 168px;
+  height: 48px;
+  background-color: #722ed1;
+  color: #fff !important;
+  border-radius: 24px;
 }
 
-.banner .container .heading .heading-button .btn:last-child{
-    width: 168px;
-    height: 48px;
-    background-color: #fff;
-    color: #000 !important;
-    border-radius: 24px;
+.banner .container .heading .heading-button .btn:last-child {
+  width: 168px;
+  height: 48px;
+  background-color: #fff;
+  color: #000 !important;
+  border-radius: 24px;
 }
 
 .banner .gambar {
@@ -112,8 +112,8 @@
   width: 144px;
   height: 40px;
   border-radius: 22px;
-  background-color: #F9F0FF;
-  color: #722ED1 !important;
+  background-color: #f9f0ff;
+  color: #722ed1 !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,7 +130,7 @@
 .why__content--tagline p.text-center {
   font-family: 'metropolismedium';
   font-size: 16px;
-  color: #8989A2 !important;
+  color: #8989a2 !important;
   padding: 0 15em 0 15em;
 }
 
@@ -148,7 +148,7 @@
 
 .why--content .row .data h3,
 .why--content .row .powerful h3,
-.why--content .row .value h3{
+.why--content .row .value h3 {
   font-family: 'metropolisbold';
   font-size: 21px;
   color: #160637 !important;
@@ -159,7 +159,7 @@
 .why--content .row .value p {
   font-family: 'metropolismedium';
   font-size: 16px;
-  color: #8989A2 !important;
+  color: #8989a2 !important;
 }
 
 .product {
@@ -171,8 +171,8 @@
   width: 244px;
   height: 40px;
   border-radius: 22px;
-  background-color: #F9F0FF;
-  color: #722ED1 !important;
+  background-color: #f9f0ff;
+  color: #722ed1 !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@
 .product .product__headline p {
   font-family: 'metropolismedium';
   font-size: 16px;
-  color: #8989A2 !important;
+  color: #8989a2 !important;
 }
 
 .teams {
@@ -203,8 +203,8 @@
   width: 244px;
   height: 40px;
   border-radius: 22px;
-  background-color: #F9F0FF;
-  color: #722ED1 !important;
+  background-color: #f9f0ff;
+  color: #722ed1 !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,13 +223,14 @@
 .teams .teams__headline p {
   font-family: 'metropolismedium';
   font-size: 16px;
-  color: #8989A2 !important;
+  color: #8989a2 !important;
 }
 
 .ceo {
   height: 767px;
   background-image: linear-gradient(#f9f0ff, #e2f1ff);
   clip-path: polygon(0 19%, 100% 0, 100% 75%, 0 100%);
+  margin-bottom: 118px;
 }
 
 .ceo .container,
@@ -244,7 +245,7 @@
 .ceo .ceo__about p:first-child {
   font-size: 16px;
   font-family: 'metropolismedium';
-  color: #8989A2 !important;
+  color: #8989a2 !important;
   padding: 0 20em 0 20em;
 }
 
@@ -255,6 +256,99 @@
   color: #160637 !important;
 }
 
-/* h=767px
-   linear-gradient(#F9F0FF,#E2F1FF)
-*/
+.client {
+  height: 568px;
+  margin-bottom: 160px;
+}
+
+.client .row h4 {
+  font-family: 'metropolisbold';
+  font-size: 36px;
+  color: #160637;
+}
+
+.client .container .row .client__brand {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.client .client--trusted p {
+  font-family: 'metropolismedium';
+  font-size: 16px;
+  color: #8989a2;
+  font-family: ;
+}
+
+.client .client--trusted span:first-child,
+.client .client--trusted span:last-child {
+  width: 144px;
+  height: 0 !important;
+  border: 1px solid #8989a2 !important;
+}
+
+.client--form {
+  position: relative !important;
+  top: 23px;
+  flex-direction: column;
+  height: auto !important;
+  width: 416px !important;
+  border-radius: 4px;
+  border: 1px solid #f9f0ff !important;
+  box-shadow: 0 10px 20px #747474 !important;
+  right: -30px;
+  z-index: 1 !important;
+  background-color: white;
+}
+
+.client--form h5 {
+  font-family: 'metropolisbold';
+  font-size: 21px;
+  color: #160637 !important;
+}
+
+.client--form form h4.client--form__or {
+  font-family: 'metropolismedium';
+  font-size: 16px;
+  color: #000;
+}
+
+.client--form .client--form__btnfree {
+  width: 344px !important;
+  height: 48px !important;
+}
+
+.client--form .form-group,
+.client--form .form-group .btn {
+  width: 344px !important;
+}
+
+.client--form .form-group .btn {
+  background-color: #722ed1;
+  color: #fff !important;
+}
+
+.client--form__googlebtn input {
+  width: 199px !important;
+  height: 48px !important;
+}
+
+.client--form span.client--form__footerline {
+  display: inline-block !important;
+  width: 336px !important;
+  height: 0px !important;
+  border: 1px solid #8989a2 !important;
+  opacity: 48% !important;
+}
+
+.client--formbg {
+  position: absolute !important;
+  z-index: 1 !important;
+  width: 480px !important;
+  height: 510px !important;
+  background-color: #f9f0ff !important;
+  border-radius: 4px;
+  margin-top: 30px;
+  transform: translateY(55px);
+}
