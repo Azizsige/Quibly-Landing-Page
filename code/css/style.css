@@ -167,7 +167,8 @@
   margin-bottom: 108px;
 }
 
-.product .product__headline .product__headline--tagline {
+.product .product__headline .product__headline--tagline,
+.product .img-fluid .product__headline--tagline {
   width: 244px;
   height: 40px;
   border-radius: 22px;
@@ -180,7 +181,8 @@
   font-size: 16px;
 }
 
-.product .product__headline h3 {
+.product .product__headline h3,
+.product .img-fluid h3 {
   font-family: 'metropolisbold';
   font-size: 36px;
   color: #160637 !important;
@@ -188,7 +190,8 @@
   margin-bottom: 68px;
 }
 
-.product .product__headline p {
+.product .product__headline p,
+.product .img-fluid p{
   font-family: 'metropolismedium';
   font-size: 16px;
   color: #8989a2 !important;
@@ -199,7 +202,8 @@
   margin-bottom: 47px;
 }
 
-.teams .teams__headline .teams__headline--tagline {
+.teams .teams__headline .teams__headline--tagline,
+.teams .img-fluid .teams__headline--tagline {
   width: 244px;
   height: 40px;
   border-radius: 22px;
@@ -212,7 +216,8 @@
   font-size: 16px;
 }
 
-.teams .teams__headline h3 {
+.teams .teams__headline h3,
+.teams .img-fluid .teams__headline--tagline h3 {
   font-family: 'metropolisbold';
   font-size: 36px;
   color: #160637 !important;
@@ -220,7 +225,8 @@
   margin-bottom: 68px;
 }
 
-.teams .teams__headline p {
+.teams .teams__headline p,
+.teams .img-fluid .teams__headline--tagline p {
   font-family: 'metropolismedium';
   font-size: 16px;
   color: #8989a2 !important;
@@ -278,7 +284,6 @@
   font-family: 'metropolismedium';
   font-size: 16px;
   color: #8989a2;
-  font-family: ;
 }
 
 .client .client--trusted span:first-child,
@@ -354,7 +359,7 @@
 }
 
 .footer {
-  height: 400px;
+  height: auto;
   background-color: #FBFCFF !important;
 }
 
@@ -363,10 +368,18 @@
   min-height: 140% !important;
 }
 
+.footer .row:first-child {
+  margin-top: 3em;
+}
+
 .footer .footer--about p {
   font-family: 'metropolismedium';
   font-size: 12px;
   color: #160637 !important;
+}
+
+.footer .footer--product {
+  padding: 0 0 0 2.7em !important;
 }
 
 .footer .footer--about__sosmed {
@@ -387,6 +400,10 @@
   font-family: 'metropolismedium';
   font-size: 0.9em;
   color: #160637;
+}
+
+.footer .row:last-child {
+  margin-bottom: 3em;
 }
 
 .footer .row:last-child .col h5 {
@@ -411,4 +428,12 @@
   font-family: 'metropolisbold';
   font-size: 19px;
   color: #160637 !important;
+}
+
+.footer .footer--newslatter .form-group .input-group .input-group-prepend {
+  width: 0em !important;
+}
+
+.footer .footer--newslatter .form-group .input-group .input-group-prepend .input-group-text .btn {
+  width: 3em !important;
 }
