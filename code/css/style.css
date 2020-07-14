@@ -43,11 +43,6 @@
   align-items: center;
 }
 
-/* .banner .container .row {
-    justify-content: space-around;
-    margin-top: 10em;
-} */
-
 .banner .container .info {
   width: 256px;
   height: 40px;
@@ -360,7 +355,7 @@
 
 .footer {
   height: auto;
-  background-color: #FBFCFF !important;
+  background-color: #e2f1ff !important;
 }
 
 .footer .container {
