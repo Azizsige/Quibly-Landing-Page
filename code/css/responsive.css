@@ -39,7 +39,8 @@
   }
 
   .banner .container .info {
-    width: 225px;
+    width: 16em;
+margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -81,6 +82,10 @@
 
   .why {
     margin-bottom: 107px;
+  }
+
+  .why__content--tagline__heading {
+    width: 12em !important;
   }
 
   .why__content--tagline p.text-center {
@@ -252,6 +257,10 @@
   .footer {
     margin-top: 47em;
     height: auto;
+  }
+
+  .footer .footer--product {
+    padding: 0 0 0 1em !important;
   }
 
   .footer .footer--about__product {
@@ -342,7 +351,8 @@
   }
 
   .banner .container .info {
-    width: 225px;
+    width: 16em;
+margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -384,6 +394,10 @@
 
   .why {
     margin-bottom: 107px;
+  }
+
+  .why__content--tagline__heading {
+    width: 12em !important;
   }
 
   .why__content--tagline p.text-center {
@@ -557,6 +571,10 @@
     height: auto;
   }
 
+  .footer .footer--product {
+    padding: 0 0 0 1em !important;
+  }
+
   .footer .footer--about__product {
   padding: 0;
 }
@@ -588,6 +606,19 @@
 
   .footer .footer--about__sosmed img {
     width: 10% !important;
+  }
+
+  .footer .row:last-child {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .footer .row:last-child .col p {
+    font-size: 1em;
+  }
+
+  .footer .row:last-child .col a {
+    font-size: 16px !important;
   }
 }
 
@@ -632,7 +663,8 @@
   }
 
   .banner .container .info {
-    width: 225px;
+    width: 16em;
+margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -676,6 +708,10 @@
     margin-bottom: 107px;
   }
 
+  .why__content--tagline__heading {
+    width: 12em !important;
+  }
+
   .why__content--tagline p.text-center {
     padding: 0 0 0 0 !important;
   }
@@ -702,6 +738,15 @@
   .product .container .row,
   .teams .container .row {
     text-align: center;
+  }
+
+  .product .img-fluid .product__headline--tagline {
+    width: 16em !important;
+  }
+  
+  .teams .img-fluid .teams__headline--tagline {
+    width: 18em !important;
+    margin-bottom: 2em;
   }
 
   .product__headline--tagline,
@@ -742,11 +787,6 @@
 
   .teams .container .row .col-md-6:first-child {
     order: 2;
-  }
-
-  .teams .img-fluid .teams__headline--tagline {
-    width: 100% !important;
-    margin-bottom: 2em;
   }
 
   .teams .container .row .col-md-6.teams__headline .teams__headline--tagline {
@@ -799,6 +839,10 @@
   .client--form {
     width: 100% !important;
     right: 0px;
+  }
+
+  .footer .footer--product {
+    padding: 0 0 0 1em !important;
   }
 
   form {
@@ -878,6 +922,25 @@
 
   .footer .footer--about__sosmed img {
     width: 10% !important;
+  }
+
+  .footer .row:last-child {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .footer .row:last-child .col p {
+    font-size: 1em;
+  }
+
+  .footer .row:last-child .col a {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 479px) {
+  .banner .container .heading .heading-button .btn:last-child {
+    margin: 0 0 0 1.5em !important;
   }
 }
 
@@ -922,7 +985,8 @@
   }
 
   .banner .container .info {
-    width: 225px;
+    width: 16em;
+margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -957,13 +1021,16 @@
   }
 
   .banner .container .heading .heading-button .btn:last-child {
-    margin-left: 0 !important;
-    margin-top: 2em;
+    margin: 0 0 0 1.5em !important;
     box-shadow: 0px 0px 3px 1px #201a1a;
   }
 
   .why {
     margin-bottom: 107px;
+  }
+
+  .why__content--tagline__heading {
+    width: 12em !important;
   }
 
   .why__content--tagline p.text-center {
@@ -1137,6 +1204,10 @@
     height: auto;
   }
 
+  .footer .footer--product {
+    padding: 0 0 0 1em !important;
+  }
+
   .footer .footer--about__product {
   padding: 0;
 }
@@ -1169,6 +1240,19 @@
   .footer .footer--about__sosmed img {
     width: 10% !important;
   }
+
+  .footer .row:last-child {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .footer .row:last-child .col p {
+    font-size: 1em;
+  }
+
+  .footer .row:last-child .col a {
+    font-size: 16px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1195,19 +1279,50 @@
 
   /* section1 */
   .banner {
-    position: relative;
+    min-height: 34em;
     width: 100%;
-    max-height: 90vh;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(#e2f1ff, #fff);
   }
+
+  .banner .container {
+    text-align: center;
+    align-items: normal;
+  }
+
+  .banner .container .row {
+    margin-top: 3em !important;
+  }
+
+  .banner .container .info {
+    margin: 0 auto 0 auto;
+  }
+
+  .banner .container .col-md-6:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner .container .col-md-6:last-child {
+    align-self: center;
+  }
+
   .banner .container .col-md-6:last-child img {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: auto !important;
+}
+
+  .banner .container .heading .heading-button {
+    display: flex;
   }
 
   .why {
     margin-bottom: 107px;
+  }
+
+  .why__content--tagline__heading {
+    width: 12em !important;
   }
 
   .why__content--tagline p.text-center {
@@ -1244,7 +1359,6 @@
   }
 
   .client--form .form-group {
-    width: 100% !important;
     margin-bottom: 1.7em;
   }
 
@@ -1259,13 +1373,13 @@
   }
 
   .client--formbg {
-    width: 97% !important;
-    transform: translate(-8px, 40px);
+    width: 107% !important;
+    transform: translate(-17px, 40px);
     height: 35.7em !important;
   }
 
   .client--form {
-    width: 100% !important;
+    width:107% !important;
     right: 0px;
     box-shadow: none !important;
     border: 1px solid rgba(137, 137, 162, 0.5) !important;
@@ -1274,6 +1388,15 @@
   .client--form span.client--form__footerline {
     margin-top: 1em;
     width: 100% !important;
+  }
+
+  .footer .col-md-2 p{
+    width: 14em !important;
+  }
+
+  .footer .footer--about__sosmed {
+    width: 6em;
+    justify-content: space-between;
   }
 
   .ceo__row {
@@ -1305,6 +1428,77 @@
 
   .ceo__row .lima {
     grid-area: lima !important;
+  }
+
+  .footer .footer--product {
+    padding: 0 0 0 1em !important;
+}
+
+  .footer__row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'satu dua tiga' 
+    'empat lima enam';
+    align-items: center;
+    align-content: center;
+    justify-items: baseline;
+  }
+
+  .footer__row .satu {
+    grid-area: satu !important;
+  }
+
+  .footer__row .dua {
+    grid-area: dua !important;
+  }
+
+  .footer__row .tiga {
+    grid-area: tiga !important;
+  }
+
+  .footer__row .empat {
+    grid-area: empat !important;
+  }
+
+  .footer__row .lima {
+    grid-area: lima !important;
+  }
+
+  .footer__row .enam {
+    grid-area: enam !important;
+  }
+
+  .footer .footer--newslatter {
+    display: grid !important;
+  }
+
+  #inlineFormInputGroup {
+    width: 9em;
+}
+
+.client--form .form-group {
+  width: 110% !important;
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  .client--form {
+    width: 96% !important;
+  }
+
+  .client--form .form-group {
+    width: 100% !important;
+  }
+
+  .client--formbg {
+    width: 96% !important;
+transform: translate(13px, 40px);
+  }
+
+  .footer .col-md-2:last-child .form-group .input-group {
+    width: 75%;
   }
 }
 
