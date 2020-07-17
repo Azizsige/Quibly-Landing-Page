@@ -270,7 +270,7 @@
                     type="password"
                     class="form-control"
                     id="exampleInputPassword1"
-                    placeholder="passwoord"
+                    placeholder="Password"
                   />
                 </div>
                 <div class="form-group">
@@ -367,8 +367,8 @@
         <div class="row">
           <div class="col text-center">
             <p>&copy;Copyright 2020 </p>
-            <h6>Design Web By <a href="https://dribbble.com/shots/10847367-Qubly-XD-Freebie">@Rahul Rao</a></h6>
-            <h6>Developer By <a href="https://instagram.com/azizsige">@Azizsige</a></h6>
+            <h6>Design Web By <a href="https://dribbble.com/shots/10847367-Qubly-XD-Freebie" target="blank">@Rahul Rao</a></h6>
+            <h6>Developer By <a href="https://instagram.com/azizsige" target="blank">@Azizsige</a></h6>
           </div>
         </div>
       </div>
@@ -397,7 +397,12 @@
     <script src="./code/js/popper.min.js"></script>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
+    window.addEventListener('scroll', function(){
+      const navbar = document.querySelector('nav');
+      navbar.classList.toggle('sticky', window.scrollY > 0);
+    })
     AOS.init();
+
   </script>
   </body>
 </html>
