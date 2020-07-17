@@ -25,7 +25,7 @@
     min-height: 55em;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(#e2f1ff, #fff);
-    margin-bottom: 0 !important;
+    margin-bottom: 10em !important;
   }
 
   .banner .container {
@@ -35,7 +35,7 @@
 
   .banner .container .row {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 6em;
   }
 
   .banner .container .info {
@@ -337,7 +337,7 @@ margin: 0 auto 2em auto;
     min-height: 55em;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(#e2f1ff, #fff);
-    margin-bottom: 0 !important;
+    margin-bottom: 13em !important;
   }
 
   .banner .container {
@@ -347,7 +347,7 @@ margin: 0 auto 2em auto;
 
   .banner .container .row {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 7em;
   }
 
   .banner .container .info {
@@ -649,7 +649,7 @@ margin: 0 auto 2em auto;
     min-height: 55em;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(#e2f1ff, #fff);
-    margin-bottom: 0 !important;
+    margin-bottom: 13em !important;
   }
 
   .banner .container {
@@ -659,7 +659,7 @@ margin: 0 auto 2em auto;
 
   .banner .container .row {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 7em;
   }
 
   .banner .container .info {
@@ -971,7 +971,7 @@ margin: 0 auto 2em auto;
     min-height: 55em;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(#e2f1ff, #fff);
-    margin-bottom: 0 !important;
+    margin-bottom: 13em !important;
   }
 
   .banner .container {
@@ -981,7 +981,7 @@ margin: 0 auto 2em auto;
 
   .banner .container .row {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 7em;
   }
 
   .banner .container .info {
@@ -1557,5 +1557,15 @@ transform: translate(13px, 40px);
   main .banner .container .heading .heading-button .btn:first-child {
     width: 15em !important;
     height: 2em;
+  }
+}
+
+@media only screen and (min-height: 500px) and (max-height: 769px){
+  .banner {
+    height: 100vh !important;
+  }
+
+  .banner .container {
+    height: 34em !important;
   }
 }
