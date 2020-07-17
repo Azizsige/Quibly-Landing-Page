@@ -1502,6 +1502,12 @@ transform: translate(13px, 40px);
   }
 }
 
+@media only screen and (min-height: 300px) and (max-height: 319px) {
+  .navbar .container .nav-item .btn {
+    color: darkblue !important;
+  }
+}
+
 @media only screen and (min-height: 320px) and (max-height: 359px) {
   .navbar {
     background-color: #e2f1ff !important;
@@ -1557,6 +1563,12 @@ transform: translate(13px, 40px);
   main .banner .container .heading .heading-button .btn:first-child {
     width: 15em !important;
     height: 2em;
+  }
+}
+
+@media only screen and (min-height: 360px) and (max-height: 487px){
+  .navbar .container .nav-item .btn {
+    color: darkmagenta !important;
   }
 }
 
