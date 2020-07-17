@@ -1566,7 +1566,14 @@ transform: translate(13px, 40px);
   }
 }
 
-@media only screen and (min-height: 360px) and (max-height: 487px){
+@media only screen and (min-height: 360px) and (max-height: 479px){
+  .banner {
+    min-height: 100vh !important;
+  }
+
+  .banner .container{
+    height: 36em !important;
+  }
   .navbar .container .nav-item .btn {
     color: darkmagenta !important;
   }
