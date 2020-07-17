@@ -11,6 +11,7 @@
 }
 
 .navbar.sticky {
+  transition: all 0.3s;
   box-shadow: 0px 0px 5px gray;
 background-color: #fff;
 }
