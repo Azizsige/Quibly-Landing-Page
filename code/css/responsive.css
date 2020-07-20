@@ -921,7 +921,8 @@ margin: 0 auto 2em auto;
   }
 
   .footer .footer--about__sosmed img {
-    width: 10% !important;
+    width: auto !important;
+height: auto !important;
   }
 
   .footer .row:last-child {
