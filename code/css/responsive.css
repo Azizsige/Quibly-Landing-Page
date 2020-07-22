@@ -40,7 +40,7 @@
 
   .banner .container .info {
     width: 16em;
-margin: 0 auto 2em auto;
+    margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -264,8 +264,8 @@ margin: 0 auto 2em auto;
   }
 
   .footer .footer--about__product {
-  padding: 0;
-}
+    padding: 0;
+  }
 
   .footer .container .row .footer--about {
     margin-bottom: 1em;
@@ -294,7 +294,7 @@ margin: 0 auto 2em auto;
 
   .footer .footer--about__sosmed img {
     width: 10% !important;
-height: 10% !important;
+    height: 10% !important;
   }
 
   .footer .row:last-child {
@@ -353,7 +353,7 @@ height: 10% !important;
 
   .banner .container .info {
     width: 16em;
-margin: 0 auto 2em auto;
+    margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -577,8 +577,8 @@ margin: 0 auto 2em auto;
   }
 
   .footer .footer--about__product {
-  padding: 0;
-}
+    padding: 0;
+  }
 
   .footer .container .row .footer--about {
     margin-bottom: 1em;
@@ -607,7 +607,7 @@ margin: 0 auto 2em auto;
 
   .footer .footer--about__sosmed img {
     width: 10% !important;
-height: 10% !important;
+    height: 10% !important;
   }
 
   .footer .row:last-child {
@@ -666,7 +666,7 @@ height: 10% !important;
 
   .banner .container .info {
     width: 16em;
-margin: 0 auto 2em auto;
+    margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -745,7 +745,7 @@ margin: 0 auto 2em auto;
   .product .img-fluid .product__headline--tagline {
     width: 16em !important;
   }
-  
+
   .teams .img-fluid .teams__headline--tagline {
     width: 18em !important;
     margin-bottom: 2em;
@@ -855,8 +855,8 @@ margin: 0 auto 2em auto;
   }
 
   .footer .footer--about__product {
-  padding: 0;
-}
+    padding: 0;
+  }
 
   .client--form .form-group {
     width: 100% !important;
@@ -887,8 +887,8 @@ margin: 0 auto 2em auto;
   }
 
   .client--formbg {
-    width: 95% !important;
-    transform: translate(-7px, 40px);
+    width: 96.5% !important;
+    transform: translate(-8px, 40px);
     height: 35.7em !important;
   }
 
@@ -923,8 +923,8 @@ margin: 0 auto 2em auto;
   }
 
   .footer .footer--about__sosmed img {
- width: 10% !important;
-height: 10% !important;
+    width: 10% !important;
+    height: 10% !important;
   }
 
   .footer .row:last-child {
@@ -989,7 +989,7 @@ height: 10% !important;
 
   .banner .container .info {
     width: 16em;
-margin: 0 auto 2em auto;
+    margin: 0 auto 2em auto;
   }
 
   .banner .container .heading {
@@ -1197,8 +1197,8 @@ margin: 0 auto 2em auto;
   }
 
   .client--formbg {
-    width: 95% !important;
-    transform: translate(-7px, 40px);
+    width: 97% !important;
+    transform: translate(-8px, 40px);
     height: 35.7em !important;
   }
 
@@ -1212,8 +1212,8 @@ margin: 0 auto 2em auto;
   }
 
   .footer .footer--about__product {
-  padding: 0;
-}
+    padding: 0;
+  }
 
   .footer .container .row .footer--about {
     margin-bottom: 1em;
@@ -1242,7 +1242,7 @@ margin: 0 auto 2em auto;
 
   .footer .footer--about__sosmed img {
     width: 10% !important;
-height: 10% !important;
+    height: 10% !important;
   }
 
   .footer .row:last-child {
@@ -1315,7 +1315,7 @@ height: 10% !important;
   .banner .container .col-md-6:last-child img {
     width: 100% !important;
     height: auto !important;
-}
+  }
 
   .banner .container .heading .heading-button {
     display: flex;
@@ -1383,7 +1383,7 @@ height: 10% !important;
   }
 
   .client--form {
-    width:107% !important;
+    width: 107% !important;
     right: 0px;
     box-shadow: none !important;
     border: 1px solid rgba(137, 137, 162, 0.5) !important;
@@ -1394,13 +1394,13 @@ height: 10% !important;
     width: 100% !important;
   }
 
-  .footer .col-md-2 p{
+  .footer .col-md-2 p {
     width: 14em !important;
   }
 
   .footer .footer--about__sosmed {
     width: 6em;
-height: auto !important;
+    height: auto !important;
     justify-content: space-between;
   }
 
@@ -1437,15 +1437,15 @@ height: auto !important;
 
   .footer .footer--product {
     padding: 0 0 0 1em !important;
-}
+  }
 
   .footer__row {
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    'satu dua tiga' 
-    'empat lima enam';
+    grid-template-areas:
+      'satu dua tiga'
+      'empat lima enam';
     align-items: center;
     align-content: center;
     justify-items: baseline;
@@ -1481,14 +1481,14 @@ height: auto !important;
 
   #inlineFormInputGroup {
     width: 9em;
+  }
+
+  .client--form .form-group {
+    width: 110% !important;
+  }
 }
 
-.client--form .form-group {
-  width: 110% !important;
-}
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px){
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   .client--form {
     width: 96% !important;
   }
@@ -1499,7 +1499,7 @@ height: auto !important;
 
   .client--formbg {
     width: 96% !important;
-transform: translate(13px, 40px);
+    transform: translate(13px, 40px);
   }
 
   .footer .col-md-2:last-child .form-group .input-group {
@@ -1508,18 +1508,48 @@ transform: translate(13px, 40px);
 }
 
 @media only screen and (min-height: 300px) and (max-height: 319px) {
+  .banner {
+    height: 40em !important;
+  }
+
+  .banner .container {
+    min-height: 100% !important;
+  }
+
   .navbar .container .nav-item .btn {
     color: darkblue !important;
+  }
+
+  div#navbarNav {
+    height: 9em !important;
+  }
+
+  ul.navbar-nav.ml-auto {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 !important;
+    align-items: center;
+    height: 100% !important;
+  }
+
+  ul.navbar-nav.ml-auto .nav-item:last-child a.btn {
+    margin-right: 0 !important;
   }
 }
 
 @media only screen and (min-height: 320px) and (max-height: 359px) {
-  .navbar {
+  .banner {
+    height: 40em !important;
+  }
+
+  .banner .container {
+    min-height: 100% !important;
+  }
+
+  /* .navbar {
     background-color: #e2f1ff !important;
-  }
-  .navbar-nav {
-    margin-top: 5px;
-  }
+  } */
   .nav-item {
     margin-top: 10px;
   }
@@ -1527,12 +1557,29 @@ transform: translate(13px, 40px);
     margin-top: 10px;
   }
   .navbar .container .nav-item .btn {
-    color: salmon !important;
+    color: darkred !important;
   }
 
   .navbar .container .nav-item .btn:hover {
     background-color: white;
     color: #722ed1 !important;
+  }
+
+  div#navbarNav {
+    height: 9em !important;
+  }
+
+  ul.navbar-nav.ml-auto {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 !important;
+    align-items: center;
+    height: 100% !important;
+  }
+
+  ul.navbar-nav.ml-auto .nav-item:last-child a.btn {
+    margin-right: 0 !important;
   }
 
   /* section1 */
@@ -1571,22 +1618,22 @@ transform: translate(13px, 40px);
   }
 }
 
-@media only screen and (min-height: 360px) and (max-height: 479px){
+@media only screen and (min-height: 360px) and (max-height: 499px) {
   .banner {
-    min-height: 100vh !important;
+    height: 35em !important;
   }
 
-  .banner .container{
-    height: 36em !important;
+  .banner .container {
+    min-height: 100% !important;
   }
   .navbar .container .nav-item .btn {
     color: darkmagenta !important;
   }
 }
 
-@media only screen and (min-height: 500px) and (max-height: 769px){
+@media only screen and (min-height: 500px) and (max-height: 769px) {
   .banner {
-    height: 100vh !important;
+    height: 34em !important;
   }
 
   .banner .container {
