@@ -1620,18 +1620,22 @@
 
 @media only screen and (min-height: 360px) and (max-height: 499px) {
   .banner {
-    height: 35em !important;
+    height: 36em !important;
   }
 
   .banner .container {
     min-height: 100% !important;
+  }
+
+  .banner .gambar {
+    height: 22em !important;
   }
   .navbar .container .nav-item .btn {
     color: darkmagenta !important;
   }
 }
 
-@media only screen and (min-height: 500px) and (max-height: 769px) {
+/* @media only screen and (min-height: 500px) and (max-height: 769px) {
   .banner {
     height: 34em !important;
   }
@@ -1639,4 +1643,4 @@
   .banner .container {
     height: 34em !important;
   }
-}
+} */

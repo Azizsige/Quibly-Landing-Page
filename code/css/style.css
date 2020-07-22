@@ -57,6 +57,10 @@ background-color: #fff;
   align-items: center;
 }
 
+.banner .container .row {
+  margin-top: 6em !important;
+}
+
 .banner .container .info {
   width: 256px;
   height: 40px;
