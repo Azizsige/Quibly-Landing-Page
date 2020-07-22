@@ -1507,6 +1507,29 @@
   }
 }
 
+@media only screen and (min-height: 200px) and (max-height: 299px) {
+  .navbar .container .nav-item .btn {
+    color: darkgoldenrod !important;
+  }
+
+  div#navbarNav {
+    height: 9em !important;
+  }
+
+  ul.navbar-nav.ml-auto {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 !important;
+    align-items: center;
+    height: 100% !important;
+  }
+
+  ul.navbar-nav.ml-auto .nav-item:last-child a.btn {
+    margin-right: 0 !important;
+  }
+}
+
 @media only screen and (min-height: 300px) and (max-height: 319px) {
   .banner {
     height: 40em !important;
