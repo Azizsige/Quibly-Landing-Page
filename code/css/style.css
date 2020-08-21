@@ -1,7 +1,144 @@
-@import url('./fonts.css');
-@import url('./responsive.css');
+@import url("./fonts.css");
+@import url("./responsive.css");
 
 /* Navbar */
+
+/* New */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0px;
+  font-family: "segoe ui";
+}
+
+.nav {
+  height: 72px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  z-index: 3;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav > .nav-header {
+  display: flex;
+  align-self: flex-end;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  margin-left: -5em;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-header > .nav-title h4 {
+  font-family: "metropolismedium";
+  font-size: 30px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  float: right;
+  font-size: 18px;
+  align-self: center;
+  width: 39em;
+  left: 7em;
+  position: relative;
+}
+
+.nav .nav-links a.btn {
+  border: 1px solid #722ed1;
+  border-radius: 30px;
+  color: #722ed1 !important;
+  width: 148px;
+}
+
+.nav .nav-links a.btn:hover {
+  background-color: #722ed1;
+  color: #fff !important;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #727272;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav > .nav-header > .nav-title {
+    margin-left: 0;
+    display: block;
+    position: relative;
+    left: -6em;
+  }
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    top: 0.7em;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #333;
+    height: 100vh;
+    transition: all 0.3s ease-in;
+    top: 50px;
+    left: 100%;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    margin-left: 1em;
+    margin-top: -12em;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    left: 100%;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    /* height: calc(100vh - 50px); */
+    left: 35%;
+  }
+}
+/* End New */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -13,18 +150,18 @@
 .navbar.sticky {
   transition: all 0.3s;
   box-shadow: 0px 0px 5px gray;
-background-color: #fff;
+  background-color: #fff;
 }
 
 .navbar .container .navbar-brand span {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 30px;
   position: relative;
   z-index: 1;
 }
 
 .navbar .container .nav-link {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 19px;
 }
 
@@ -75,14 +212,14 @@ background-color: #fff;
 }
 
 .banner .container .heading h2 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 48px;
   margin-bottom: 0.6em;
   margin-top: 1em;
 }
 
 .banner .container .heading h3 {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #8989a2 !important;
   margin-bottom: 2em;
@@ -130,18 +267,18 @@ background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
 }
 
 .why__content--tagline h2 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 36px;
   color: #160637 !important;
 }
 
 .why__content--tagline p.text-center {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #8989a2 !important;
   padding: 0 15em 0 15em;
@@ -162,7 +299,7 @@ background-color: #fff;
 .why--content .row .data h3,
 .why--content .row .powerful h3,
 .why--content .row .value h3 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 21px;
   color: #160637 !important;
 }
@@ -170,7 +307,7 @@ background-color: #fff;
 .why--content .row .data p,
 .why--content .row .powerful p,
 .why--content .row .value p {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #8989a2 !important;
 }
@@ -190,13 +327,13 @@ background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
 }
 
 .product .product__headline h3,
 .product .img-fluid h3 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 36px;
   color: #160637 !important;
   margin-top: 41px;
@@ -204,8 +341,8 @@ background-color: #fff;
 }
 
 .product .product__headline p,
-.product .img-fluid p{
-  font-family: 'metropolismedium';
+.product .img-fluid p {
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #8989a2 !important;
 }
@@ -225,13 +362,13 @@ background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
 }
 
 .teams .teams__headline h3,
 .teams .img-fluid .teams__headline--tagline h3 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 36px;
   color: #160637 !important;
   margin-top: 41px;
@@ -240,7 +377,7 @@ background-color: #fff;
 
 .teams .teams__headline p,
 .teams .img-fluid .teams__headline--tagline p {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #8989a2 !important;
 }
@@ -263,7 +400,7 @@ background-color: #fff;
 
 .ceo .ceo__about p:first-child {
   font-size: 16px;
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   color: #8989a2 !important;
   padding: 0 20em 0 20em;
 }
@@ -271,7 +408,7 @@ background-color: #fff;
 .ceo .ceo__about .ceo__about--name,
 .ceo .ceo__about .ceo__about--cto {
   font-size: 16px;
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   color: #160637 !important;
 }
 
@@ -281,7 +418,7 @@ background-color: #fff;
 }
 
 .client .row h4 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 36px;
   color: #160637;
 }
@@ -294,7 +431,7 @@ background-color: #fff;
 }
 
 .client .client--trusted p {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #8989a2;
 }
@@ -321,13 +458,13 @@ background-color: #fff;
 }
 
 .client--form h5 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 21px;
   color: #160637 !important;
 }
 
 .client--form form h4.client--form__or {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #000;
 }
@@ -386,7 +523,7 @@ background-color: #fff;
 }
 
 .footer .footer--about p {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 12px;
   color: #160637 !important;
 }
@@ -399,18 +536,18 @@ background-color: #fff;
   justify-content: space-around;
 }
 
-.footer .footer--about__sosmed img{
+.footer .footer--about__sosmed img {
   width: 20% !important;
 }
 
 .footer .col-md-2 h5 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 16px;
   color: #160637;
 }
 
 .footer .col-md-2 p {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 0.9em;
   color: #160637;
 }
@@ -420,25 +557,25 @@ background-color: #fff;
 }
 
 .footer .row:last-child .col h5 {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 2em;
   color: #160637;
 }
 
 .footer .row:last-child .col p {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 20px;
   color: #160637 !important;
 }
 
 .footer .row:last-child .col h6 {
-  font-family: 'metropolismedium';
+  font-family: "metropolismedium";
   font-size: 16px;
   color: #160637 !important;
 }
 
 .footer .row:last-child .col a {
-  font-family: 'metropolisbold';
+  font-family: "metropolisbold";
   font-size: 19px;
   color: #160637 !important;
 }
@@ -447,6 +584,12 @@ background-color: #fff;
   width: 0em !important;
 }
 
-.footer .footer--newslatter .form-group .input-group .input-group-prepend .input-group-text .btn {
+.footer
+  .footer--newslatter
+  .form-group
+  .input-group
+  .input-group-prepend
+  .input-group-text
+  .btn {
   width: 3em !important;
 }

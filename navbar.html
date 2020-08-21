@@ -1,112 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navbar</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
+      body {
+        overflow-x: hidden;
+        margin: 0px;
+        font-family: "segoe ui";
+      }
 
-    body {
-      font-family: sans-serif;
-    }
+      .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #4d4d4d;
+        position: relative;
+      }
 
-    nav {
-      background-color: blueviolet;
-      display: flex;
-      justify-content: space-around;
-      height: 50px;
-      align-items: center;
-    }
+      .nav > .nav-header {
+        display: flex;
+      }
 
-    nav ul {
-      display: flex;
-      list-style: none;
-      width: 40%;
-      justify-content: space-between;
-    }
+      .nav > .nav-header > .nav-title {
+        display: inline-block;
+        margin-left: -5em;
+        font-size: 22px;
+        color: #fff;
+        padding: 10px 10px 10px 10px;
+      }
 
-    nav ul li a {
-      text-decoration: none;
-      color: white;
-    }
-
-    .menu-toggle {
-      display: flex;
-      flex-direction: column;
-      height: 20px;
-      justify-content: space-between;
-      position: relative;
-    }
-
-    input[type=checkbox] {
-      /* Double-sized Checkboxes */
-      -ms-transform: scale(2);
-      /* IE */
-      -moz-transform: scale(2);
-      /* FF */
-      -webkit-transform: scale(2);
-      /* Safari and Chrome */
-      -o-transform: scale(2);
-      /* Opera */
-      transform: scale(2);
-      padding: 10px;
-    }
-
-    /* .menu-toggle input {
-      position: absolute;
-      width: 40px;
-      height: 28px;
-      opacity: .8;
-      left: -10px;
-      top: -5px;
-
-    } */
-
-    .menu-toggle span {
-      display: block;
-      width: 28px;
-      height: 3px;
-      background-color: white;
-      border-radius: 3px;
-    }
-
-    @media screen and (max-width: 576px) {
-      nav ul {
+      .nav > .nav-btn {
         display: none;
       }
-    }
-  </style>
-</head>
 
-<body>
+      .nav > .nav-links {
+        display: inline;
+        float: right;
+        font-size: 18px;
+      }
 
-  <nav>
-    <div class="logo">
-      <h4>Azizsige</h4>
+      .nav > .nav-links > a {
+        display: inline-block;
+        padding: 13px 10px 13px 10px;
+        text-decoration: none;
+        color: #efefef;
+      }
+
+      .nav > .nav-links > a:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+
+      .nav > #nav-check {
+        display: none;
+      }
+
+      @media (max-width: 600px) {
+        .nav > .nav-header > .nav-title {
+          margin-left: 0;
+          display: block;
+          position: relative;
+          left: 1em;
+        }
+        .nav > .nav-btn {
+          display: inline-block;
+          position: absolute;
+          right: 0px;
+          top: 0px;
+        }
+        .nav > .nav-btn > label {
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          padding: 13px;
+        }
+        .nav > .nav-btn > label:hover,
+        .nav #nav-check:checked ~ .nav-btn > label {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+        .nav > .nav-btn > label > span {
+          display: block;
+          width: 25px;
+          height: 10px;
+          border-top: 2px solid #eee;
+        }
+        .nav > .nav-links {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          width: 100%;
+          background-color: #333;
+          height: 100vh;
+          transition: all 0.3s ease-in;
+          top: 50px;
+          left: 100%;
+        }
+        .nav > .nav-links > a {
+          display: block;
+          width: 100%;
+          margin-left: 1em;
+          margin-top: -12em;
+        }
+        .nav > #nav-check:not(:checked) ~ .nav-links {
+          left: 100%;
+        }
+        .nav > #nav-check:checked ~ .nav-links {
+          /* height: calc(100vh - 50px); */
+          left: 35%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">
+          JoGeek
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div class="nav-links">
+        <a href="//github.io/jo_geek" target="_blank">Github</a>
+        <a href="http://stackoverflow.com/users/4084003/" target="_blank"
+          >Stackoverflow</a
+        >
+        <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://codepen.io/jo_Geek/" target="_blank">Codepen</a>
+        <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank"
+          >JsFiddle</a
+        >
+      </div>
     </div>
 
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Product</a></li>
-      <li><a href="#">Service</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">About</a></li>
-    </ul>
-
-
-    <div class="menu-toggle">
-      <input type="checkbox">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </nav>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
