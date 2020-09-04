@@ -3,64 +3,6 @@
   body {
     overflow-x: hidden !important;
   }
-
-  .nav > .nav-header > .nav-title {
-    margin-left: 0;
-    display: block;
-    position: relative;
-    left: -6em;
-  }
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 1em;
-    top: 0.7em;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .nav-btn > label:hover,
-  .nav #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .nav > .nav-links {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: #333;
-    height: 100vh;
-    transition: all 0.3s ease-in;
-    top: 50px;
-    left: 100%;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-    margin-left: 1em;
-  }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    background-image: linear-gradient(#e2f1ff, #fff) !important;
-    justify-content: space-around !important;
-    box-shadow: 0em 0 10px 0px black !important;
-    top: 4em !important;
-    left: 100%;
-  }
-  .nav > #nav-check:checked ~ .nav-links {
-   height: calc(100vh - 50px); 
-    left: 35%;
-  }
-
   .navbar {
     background-color: #e2f1ff !important;
   }
@@ -374,64 +316,6 @@
 
 /* Small Android */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
-  .nav > .nav-header > .nav-title {
-    margin-left: 0;
-    display: block;
-    position: relative;
-    left: -6em;
-  }
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 1em;
-    top: 0.7em;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .nav-btn > label:hover,
-  .nav #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .nav > .nav-links {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: #333;
-    height: 100vh;
-    transition: all 0.3s ease-in;
-    top: 50px;
-    left: 100%;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-    margin-left: 1em;
-  }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    background-image: linear-gradient(#e2f1ff, #fff) !important;
-    justify-content: space-around !important;
-    box-shadow: 0em 0 10px 0px black !important;
-    top: 4em !important;
-    left: 100%;
-  }
-  .nav > #nav-check:checked ~ .nav-links {
-   height: calc(100vh - 50px); 
-    left: 35%;
-  }
-
-
   .navbar {
     background-color: #e2f1ff !important;
   }
@@ -745,64 +629,6 @@
 
 /* Standart Android */
 @media only screen and (min-width: 360px) and (max-width: 479px) {
-  .nav > .nav-header > .nav-title {
-    margin-left: 0;
-    display: block;
-    position: relative;
-    left: -6em;
-  }
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 1em;
-    top: 0.7em;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .nav-btn > label:hover,
-  .nav #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .nav > .nav-links {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: #333;
-    height: 100vh;
-    transition: all 0.3s ease-in;
-    top: 50px;
-    left: 100%;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-    margin-left: 1em;
-  }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    background-image: linear-gradient(#e2f1ff, #fff) !important;
-    justify-content: space-around !important;
-    box-shadow: 0em 0 10px 0px black !important;
-    top: 4em !important;
-    left: 100%;
-  }
-  .nav > #nav-check:checked ~ .nav-links {
-   height: calc(100vh - 50px); 
-    left: 35%;
-  }
-
-
   .navbar {
     background-color: #e2f1ff !important;
   }
