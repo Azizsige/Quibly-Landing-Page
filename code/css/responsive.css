@@ -1,5 +1,8 @@
 /* Mini Android */
 @media only screen and (min-width: 300px) and (max-width: 319px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .navbar {
     background-color: #e2f1ff !important;
   }
