@@ -74,70 +74,9 @@ body {
   color: #727272;
 }
 
-.nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
 .nav > #nav-check {
   display: none;
 }
-
-@media (max-width: 600px) {
-  .nav > .nav-header > .nav-title {
-    margin-left: 0;
-    display: block;
-    position: relative;
-    left: -6em;
-  }
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 1em;
-    top: 0.7em;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .nav-btn > label:hover,
-  .nav #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .nav > .nav-links {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: #333;
-    height: 100vh;
-    transition: all 0.3s ease-in;
-    top: 50px;
-    left: 100%;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-    margin-left: 1em;
-    margin-top: -12em;
-  }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    left: 100%;
-  }
-  .nav > #nav-check:checked ~ .nav-links {
-    /* height: calc(100vh - 50px); */
-    left: 35%;
-  }
-}
-/* End New */
 
 .navbar {
   position: fixed;
