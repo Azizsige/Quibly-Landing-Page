@@ -2,6 +2,11 @@
 @import url("./responsive.css");
 
 /* Navbar */
+.nav-new {
+  height: 70px;
+  background-color: #722ed1;
+  color: #000;
+}
 
 /* New */
 * {
